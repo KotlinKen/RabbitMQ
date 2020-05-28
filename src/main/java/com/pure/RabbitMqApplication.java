@@ -11,8 +11,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //@EnableScheduling
 public class RabbitMqApplication {
 	
-	@Profile("usage_message")
-    @Bean
+//	@Profile("usage_message")
+//    @Bean
     public CommandLineRunner usage() {
         return args -> {
             System.out.println("This app uses Spring Profiles to control its behavior.\\n ");
@@ -22,8 +22,8 @@ public class RabbitMqApplication {
         };
     }
 
-    @Profile("!usage_message")
-    @Bean
+//    @Profile("!usage_message")
+//    @Bean
     public CommandLineRunner tutorial() {
         return new RabbitAmqpTutorialsRunner();
     }

@@ -9,8 +9,8 @@ import com.pure.model.CoffeReceiver;
 import com.pure.model.Tut1Receiver;
 import com.pure.model.Tut1Sender;
 
-@Profile({"tut1", "hello-world"})
-@Configuration
+//@Profile({"tut1", "hello-world"})
+//@Configuration
 public class TutConfig {
 
 	@Bean

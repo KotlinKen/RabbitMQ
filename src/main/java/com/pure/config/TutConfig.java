@@ -15,6 +15,7 @@ public class TutConfig {
 
 	@Bean
 	public Queue hello() {
+		System.out.println("testing");
 		return new Queue("hello");
 	}
 	
